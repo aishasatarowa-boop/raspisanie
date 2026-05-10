@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ky">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Мектеп системасы</title>
+    <link rel="stylesheet" href="aish.css">
+</head>
+<body>
+
+    <div class="log">
+        <h1 class="shk">ШКОЛА НАЙМАН</h1>
+
+        <div class="bashka-nrseler">
+            <input type="text" id="aty-kim" class="at" Атыңызды жазыңыз!">
+
+            <button type="button" onclick="tekshersh()" class="knopka">ВОЙТИ</button>
+
+            <p class="j"><span>или</span></p>
+
+            <a href="жаны.html" class="zh">Жаңы аккаунт</a>
+        </div>
+    </div>
+
+    <script>
+        function tekshersh() {
+
+            var aty = document.getElementById("aty-kim").value.trim().toLowerCase();
+            if (aty === "") {
+                alert("Сураныч, атыңызды жазыңыз!");
+                return;
+            }
+            if (aty === "мугалим" || aty === "mugalim") {
+                window.location.href = "mugalim.html";
+            } 
+            
+            else {
+                window.location.href = "okuuchu.html";
+            }
+        }
+    </script>
+
+</body>
+</html>

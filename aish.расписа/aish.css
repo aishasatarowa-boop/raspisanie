@@ -1,0 +1,281 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7f6;
+    font-family: sans-serif;
+}
+
+.log {
+    background: white;
+    padding: 50px 40px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.shk {
+    font-size: 26px;
+    letter-spacing: 3px;
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.at {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.knopka {
+    width: 100%;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.knopka:hover {
+    letter-spacing: 5px;
+    background-color: #444;
+}
+
+.j {
+    margin: 25px 0;
+    color: #888;
+    position: relative;
+    font-size: 14px;
+}
+
+.j::before, .j::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 1px;
+    background: #ddd;
+}
+.j::before { left: 0; }
+.j::after { right: 0; }
+
+.zh {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.zh:hover {
+    text-decoration: underline;
+}
+.аты {
+    
+}body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f4f7f6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.log {
+    background: white;
+    padding: 50px 40px;
+    border-radius: 25px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    text-align: center;
+    width: 350px;
+}
+
+.shk {
+    font-size: 26px;
+    letter-spacing: 3px;
+    color: #333;
+    margin-bottom: 35px;
+}
+
+.at {
+    width: 100%;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #ddd;
+    outline: none;
+    font-size: 16px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+}
+
+.knopka {
+    width: 100%;
+    padding: 15px;
+    background-color: #222;
+    color: white;
+    border: none;
+    border-radius: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    letter-spacing: 2px;
+    transition: 0.4s;
+}
+
+.knopka:hover {
+    letter-spacing: 5px;
+    background-color: #444;
+}
+
+.j {
+    margin: 25px 0;
+    color: #888;
+    position: relative;
+    font-size: 14px;
+}
+
+.j::before, .j::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    width: 35%;
+    height: 1px;
+    background: #ddd;
+}
+.j::before { left: 0; }
+.j::after { right: 0; }
+
+.zh {
+    display: block;
+    color: #007bff;
+    text-decoration: none;
+    font-size: 14px;
+    margin-top: 10px;
+}
+
+.okuuchu-bet {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.menyu {
+    width: 220px;
+    background: #222;
+    color: white;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.aty {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.menyu .aty {
+    color: white;
+    text-align: center;
+    border-bottom: 1px solid #444;
+    padding-bottom: 15px;
+}
+
+.menyu ul {
+    list-style: none;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.menyu ul li {
+    margin-bottom: 15px;
+}
+
+.menyu ul li a {
+    color: #bbb;
+    text-decoration: none;
+    font-size: 17px;
+    display: block;
+    padding: 10px;
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+.menyu ul li a:hover, .st.active {
+    background: #444;
+    color: white;
+}
+
+.main {
+    flex: 1;
+    padding: 40px;
+    background-color: #f9f9f9;
+    overflow-y: auto;
+    display: block;
+}
+
+.katar {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+    flex-wrap: wrap;
+}
+
+.sabak-kl {
+    background: white;
+    width: 260px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+    overflow: hidden;
+}
+
+.dr {
+    background-color: #2c3e50;
+    color: white;
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.sabak-kl ul {
+    list-style: none;
+    padding: 15px;
+    margin: 0;
+}
+
+.sabak-kl ul li {
+    padding: 12px 5px;
+    border-bottom: 1px solid #eee;
+    font-size: 15px;
+    color: #555;
+}
+
+.sabak-kl ul li:last-child {
+    border-bottom: none;
+}
+
+.st {
+    color: #3498db;
+    font-weight: bold;
+}
